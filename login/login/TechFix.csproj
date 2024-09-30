@@ -70,11 +70,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="categoryWebForm.aspx" />
     <Content Include="login.aspx" />
     <Content Include="productsWebForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="categoryWebForm.aspx.cs">
+      <DependentUpon>categoryWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="categoryWebForm.aspx.designer.cs">
+      <DependentUpon>categoryWebForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

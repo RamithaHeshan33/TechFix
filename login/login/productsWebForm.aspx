@@ -33,6 +33,16 @@
             <asp:TextBox ID="txtProdDesc" runat="server" TextMode="MultiLine"></asp:TextBox>
         </div>
 
+        <div>
+            <asp:Label ID="lblSupplier" runat="server" Text="Supplier" Font-Bold="true" Font-Size="Larger"></asp:Label>
+            <asp:DropDownList ID="dlSupplier" runat="server" Height="25" Width="180px"></asp:DropDownList>
+        </div>
+
+        <div>
+            <asp:Label ID="lblCategory" runat="server" Text="Category" Font-Bold="true" Font-Size="Larger"></asp:Label>
+            <asp:DropDownList ID="dlCategory" runat="server" Height="25" Width="180px"></asp:DropDownList>
+        </div>
+
         <asp:Button ID="addBtn" runat="server" Text="Add" OnClick="addBtn_Click" />
     </form>
 

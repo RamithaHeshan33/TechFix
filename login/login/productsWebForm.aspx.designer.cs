@@ -96,6 +96,42 @@ namespace login
         protected global::System.Web.UI.WebControls.TextBox txtProdDesc;
 
         /// <summary>
+        /// lblSupplier control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSupplier;
+
+        /// <summary>
+        /// dlSupplier control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList dlSupplier;
+
+        /// <summary>
+        /// lblCategory control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCategory;
+
+        /// <summary>
+        /// dlCategory control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList dlCategory;
+
+        /// <summary>
         /// addBtn control.
         /// </summary>
         /// <remarks>

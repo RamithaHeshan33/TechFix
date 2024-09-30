@@ -25,6 +25,12 @@ namespace login
                 lblText.Text = "Error connecting db" + ex;
             }
 
+            if (!IsPostBack)
+            {
+                getSupplierName();
+                getCategoryName();
+            }
+
         }
 
         protected void addBtn_Click(object sender, EventArgs e)
@@ -53,13 +59,15 @@ namespace login
                 }
 
                 // Use parameters to avoid SQL injection and handle data types properly
-                SqlCommand cmd = new SqlCommand("INSERT INTO ProductsTable (productName, productPrice, productQty, productDesc) VALUES (@productName, @productPrice, @productQty, @productDesc)", con);
+                SqlCommand cmd = new SqlCommand("INSERT INTO ProductsTable (productName, productPrice, productQty, productDesc, username, categoryId) VALUES (@productName, @productPrice, @productQty, @productDesc, @username, @categoryId)", con);
 
                 // Add parameters with the correct types
                 cmd.Parameters.AddWithValue("@productName", txtProdName.Text);
                 cmd.Parameters.AddWithValue("@productPrice", productPrice);
                 cmd.Parameters.AddWithValue("@productQty", productQty);
                 cmd.Parameters.AddWithValue("@productDesc", txtProdDesc.Text);
+                cmd.Parameters.AddWithValue("@username", dlSupplier.SelectedValue);  // Use the selected value (username) from the dropdown
+                cmd.Parameters.AddWithValue("@categoryId", dlCategory.SelectedValue);
 
                 int NoRows = cmd.ExecuteNonQuery();
 
@@ -87,7 +95,102 @@ namespace login
         }
 
 
+        public void getSupplierName()
+        {
+            try
+            {
+                SqlCommand cmd = new SqlCommand("SELECT name, username FROM SuppliersTable", con);
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+
+                DataSet ds = new DataSet();
+                adapter.Fill(ds, "SuppliersTable");
+
+                dlSupplier.DataSource = ds.Tables[0];
+                dlSupplier.DataTextField = "name"; // Display the supplier name in the dropdown
+                dlSupplier.DataValueField = "username"; // Use the username as the value
+                dlSupplier.DataBind();
+            }
+            catch (Exception ex)
+            {
+                dlSupplier.Text = "Error selecting Department Name: " + ex.Message;
+            }
+        }
 
 
+        public string getSupplierUsername()
+        {
+            string SupplierUsername = "";
+            try
+            {
+                SqlCommand cmd = new SqlCommand("SELECT username FROM SuppliersTable WHERE name = '" + dlSupplier.Text + "'", con);
+                SqlDataReader datareader = cmd.ExecuteReader();
+
+                bool records = datareader.HasRows;
+                if (records)
+                {
+                    while (datareader.Read())
+                    {
+                        SupplierUsername = datareader[0].ToString();
+                    }
+                }
+                datareader.Close();
+            }
+
+            catch (Exception ex)
+            {
+                lblText.Text = "Ërror selecting department Id " + ex;
+            }
+
+            return SupplierUsername;
+        }
+
+
+        public void getCategoryName()
+        {
+            try
+            {
+                SqlCommand cmd = new SqlCommand("SELECT * FROM CategoryTable", con);
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+
+                DataSet ds = new DataSet();
+                adapter.Fill(ds, "CategoryTable");
+
+                dlCategory.DataSource = ds.Tables[0];
+                dlCategory.DataTextField = "categoryName"; // Display the supplier name in the dropdown
+                dlCategory.DataValueField = "categoryId"; // Use the username as the value
+                dlCategory.DataBind();
+            }
+            catch (Exception ex)
+            {
+                dlCategory.Text = "Error selecting Category Name: " + ex.Message;
+            }
+        }
+
+        public string getCategoryID()
+        {
+            string CategoryID = "";
+            try
+            {
+                SqlCommand cmd = new SqlCommand("SELECT categoryId FROM CategoryTable WHERE categoryName = '" + dlCategory.Text + "'", con);
+                SqlDataReader datareader = cmd.ExecuteReader();
+
+                bool records = datareader.HasRows;
+                if (records)
+                {
+                    while (datareader.Read())
+                    {
+                        CategoryID = datareader[0].ToString();
+                    }
+                }
+                datareader.Close();
+            }
+
+            catch (Exception ex)
+            {
+                lblText.Text = "Ërror selecting department Id " + ex;
+            }
+
+            return CategoryID;
+        }
     }
 }
