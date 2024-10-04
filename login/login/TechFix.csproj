@@ -70,7 +70,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="add_product.jpeg" />
+    <Content Include="categories.jpg" />
     <Content Include="categoryWebForm.aspx" />
+    <Content Include="dashboardWebForm.aspx" />
     <Content Include="login.aspx" />
     <Content Include="productsWebForm.aspx" />
     <Content Include="Web.config" />
@@ -82,6 +85,13 @@
     </Compile>
     <Compile Include="categoryWebForm.aspx.designer.cs">
       <DependentUpon>categoryWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dashboardWebForm.aspx.cs">
+      <DependentUpon>dashboardWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dashboardWebForm.aspx.designer.cs">
+      <DependentUpon>dashboardWebForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
