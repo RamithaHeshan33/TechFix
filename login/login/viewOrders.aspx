@@ -36,21 +36,21 @@
                         </EditItemTemplate>
                     </asp:TemplateField>
 
-                    <asp:TemplateField HeaderText="Username">
+                    <asp:TemplateField HeaderText="Supplier Name">
                         <ItemTemplate>
-                            <asp:Label ID="lblUsername" runat="server" Text='<%# Eval("username") %>'></asp:Label>
+                            <asp:Label ID="lblUsername" runat="server" Text='<%# Eval("name") %>'></asp:Label>
                         </ItemTemplate>
                         <EditItemTemplate>
-                            <asp:TextBox ID="txtUsername" runat="server" Text='<%# Bind("username") %>'></asp:TextBox>
+                            <asp:TextBox ID="txtUsername" runat="server" Text='<%# Bind("name") %>'></asp:TextBox>
                         </EditItemTemplate>
                     </asp:TemplateField>
 
-                    <asp:TemplateField HeaderText="Category ID">
+                    <asp:TemplateField HeaderText="Category Name">
                         <ItemTemplate>
-                            <asp:Label ID="lblCategoryId" runat="server" Text='<%# Eval("categoryId") %>'></asp:Label>
+                            <asp:Label ID="lblCategoryName" runat="server" Text='<%# Eval("categoryName") %>'></asp:Label>
                         </ItemTemplate>
                         <EditItemTemplate>
-                            <asp:TextBox ID="txtCategoryId" runat="server" Text='<%# Bind("categoryId") %>'></asp:TextBox>
+                            <asp:TextBox ID="txtCategoryName" runat="server" Text='<%# Bind("categoryName") %>'></asp:TextBox>
                         </EditItemTemplate>
                     </asp:TemplateField>
 
