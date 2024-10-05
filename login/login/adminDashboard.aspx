@@ -1,11 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="dashboardWebForm.aspx.cs" Inherits="login.dashboard" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="adminDashboard.aspx.cs" Inherits="login.adminDashboard" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Techfix Dashboard</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title></title>
     <link rel="stylesheet" href="css/dashboard.css"/>
 </head>
 <body>
@@ -15,14 +14,14 @@
             <div class="card">
                 <img src="add_product.jpeg" alt="Add Product" class="card-img" />
                 <div class="btn">
-                    <asp:Button ID="Button1" runat="server" Text="Add Products" OnClick="Button1_Click" />
+                    <asp:Button ID="Button1" runat="server" Text="Add Order" OnClick="Button1_Click" />
                 </div>
             </div>
 
             <div class="card">
                 <img src="categories.jpg" alt="Add Category" class="card-img" />
                 <div class="btn">
-                    <asp:Button ID="Button2" runat="server" Text="View Orders" OnClick="Button2_Click" />
+                    <asp:Button ID="Button2" runat="server" Text="Add Category" OnClick="Button2_Click"/>
                 </div>
             </div>
 
@@ -38,4 +37,3 @@
     </form>
 </body>
 </html>
-

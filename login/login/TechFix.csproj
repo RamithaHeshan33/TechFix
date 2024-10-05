@@ -70,15 +70,49 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="addOrder.aspx" />
     <Content Include="add_product.jpeg" />
+    <Content Include="adminDashboard.aspx" />
+    <Content Include="adminLogin.aspx" />
+    <Content Include="adminManageProducts.aspx" />
     <Content Include="categories.jpg" />
     <Content Include="categoryWebForm.aspx" />
     <Content Include="dashboardWebForm.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="ManageProducts.aspx" />
     <Content Include="productsWebForm.aspx" />
+    <Content Include="viewOrders.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addOrder.aspx.cs">
+      <DependentUpon>addOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addOrder.aspx.designer.cs">
+      <DependentUpon>addOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminDashboard.aspx.cs">
+      <DependentUpon>adminDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminDashboard.aspx.designer.cs">
+      <DependentUpon>adminDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminLogin.aspx.cs">
+      <DependentUpon>adminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminLogin.aspx.designer.cs">
+      <DependentUpon>adminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminManageProducts.aspx.cs">
+      <DependentUpon>adminManageProducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminManageProducts.aspx.designer.cs">
+      <DependentUpon>adminManageProducts.aspx</DependentUpon>
+    </Compile>
     <Compile Include="categoryWebForm.aspx.cs">
       <DependentUpon>categoryWebForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -100,6 +134,13 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ManageProducts.aspx.cs">
+      <DependentUpon>ManageProducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageProducts.aspx.designer.cs">
+      <DependentUpon>ManageProducts.aspx</DependentUpon>
+    </Compile>
     <Compile Include="productsWebForm.aspx.cs">
       <DependentUpon>productsWebForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -108,6 +149,13 @@
       <DependentUpon>productsWebForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="viewOrders.aspx.cs">
+      <DependentUpon>viewOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewOrders.aspx.designer.cs">
+      <DependentUpon>viewOrders.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

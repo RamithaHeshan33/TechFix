@@ -4,7 +4,7 @@ using System.Web.UI;
 
 namespace login
 {
-    public partial class login : System.Web.UI.Page
+    public partial class adminLogin : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -15,7 +15,7 @@ namespace login
         {
             // Define the connection string and the query
             SqlConnection con = new SqlConnection(@"Data Source=RAMITHA-HESHAN\SQLEXPRESS;Initial Catalog=TechFix;Integrated Security=True");
-            string loginquery = "SELECT COUNT(*) FROM SuppliersTable WHERE username=@username AND password=@password";
+            string loginquery = "SELECT COUNT(*) FROM AdminTable WHERE username=@username AND password=@password";
 
             // Create the command and add parameters
             SqlCommand cmd = new SqlCommand(loginquery, con);
@@ -33,7 +33,7 @@ namespace login
                     Session["username"] = TextBox1.Text;
 
                     // Redirect to dashboard or manage products page
-                    Response.Redirect("dashboardWebForm.aspx");
+                    Response.Redirect("adminDashboard.aspx");
                 }
                 else
                 {

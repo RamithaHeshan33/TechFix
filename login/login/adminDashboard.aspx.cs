@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace login
 {
-    public partial class dashboard : System.Web.UI.Page
+    public partial class adminDashboard : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -16,17 +16,17 @@ namespace login
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("productsWebform.aspx");
+            Response.Redirect("addOrder.aspx");
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("viewOrders.aspx");
+            Response.Redirect("categoryWebForm.aspx");
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            Response.Redirect("ManageProducts.aspx");
+            Response.Redirect("adminManageProducts.aspx");
         }
     }
 }
