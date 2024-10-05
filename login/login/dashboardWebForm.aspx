@@ -6,69 +6,7 @@
 <head runat="server">
     <title>Techfix Dashboard</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f0f2f5;
-            margin: 0;
-            padding: 20px;
-        }
-
-        h2 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 40px;
-        }
-
-        .dashboard-container {
-            gap: 30px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .card {
-            background-color: white;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            width: 420px;
-            margin: 0 auto;
-            transition: transform 0.3s ease-in-out;
-        }
-
-        .card:hover {
-          transform: scale(1.05);
-        }
-
-        .card-img {
-            width: 100%;
-            height: auto;
-            max-width: 380px;
-            border-radius: 15px;
-            margin-bottom: 20px;
-        }
-
-        .btn {
-            margin-top: 10px;
-        }
-
-        .btn {
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 6px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        .btn:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <link rel="stylesheet" href="css/dashboard.css"/>
 </head>
 <body>
     <h2>Welcome to Techfix Dashboard</h2>
