@@ -36,7 +36,6 @@ namespace login
             }
             catch (Exception ex)
             {
-                // Handle exception (you can add a label to display errors)
                 lblMessage.Text = "Error fetching products: " + ex.Message;
                 lblMessage.Visible = true;
             }
@@ -49,17 +48,21 @@ namespace login
                 int productID = Convert.ToInt32(e.CommandArgument);
                 string username = GetUsername(); // Retrieve the username from session
 
-                AddToCart(productID, username);
+                // Get the quantity entered by the user
+                TextBox txtQuantity = (TextBox)e.Item.FindControl("txtQuantity");
+                int quantity = int.Parse(txtQuantity.Text);
+
+                AddToCart(productID, username, quantity);
             }
         }
 
         private string GetUsername()
         {
             // Assuming you store username in session after login
-            return Session["username"]?.ToString(); // Ensure this is set during login
+            return Session["username"]?.ToString();
         }
 
-        private void AddToCart(int productID, string username)
+        private void AddToCart(int productID, string username, int quantity)
         {
             try
             {
@@ -69,49 +72,54 @@ namespace login
 
                     // Fetch product details (price and quantity) based on productID
                     decimal price = 0;
-                    int productQty = 1; // Default to 1 when adding to cart
+                    int availableQty = 0;
 
                     // Fetch the product price and quantity
                     SqlCommand cmd = new SqlCommand("SELECT productPrice, productQty FROM ProductsTable WHERE productID = @productID", con);
                     cmd.Parameters.AddWithValue("@productID", productID);
 
-                    // Use a single SqlDataReader to fetch the product price and quantity
                     using (SqlDataReader reader = cmd.ExecuteReader())
                     {
                         if (reader.Read())
                         {
                             price = Convert.ToDecimal(reader["productPrice"]);
-                            int availableQty = Convert.ToInt32(reader["productQty"]);
+                            availableQty = Convert.ToInt32(reader["productQty"]);
 
-                            // Check if the product is in stock
-                            if (availableQty <= 0)
+                            // Check if there is enough stock
+                            if (availableQty < quantity)
                             {
-                                lblMessage.Text = "Product is out of stock.";
+                                lblMessage.Text = "Not enough stock available.";
                                 lblMessage.Visible = true;
-                                return; // Exit if the product is out of stock
+                                return;
                             }
                         }
                         else
                         {
                             lblMessage.Text = "Product not found.";
                             lblMessage.Visible = true;
-                            return; // Exit if the product is not found
+                            return;
                         }
                     }
 
-                    decimal totalPrice = price * productQty;
+                    decimal totalPrice = price * quantity;
 
                     // Insert into CartTable
                     SqlCommand insertCmd = new SqlCommand("INSERT INTO CartTable (productQty, price, totalPrice, username, productID) VALUES (@productQty, @price, @totalPrice, @username, @productID)", con);
-                    insertCmd.Parameters.AddWithValue("@productQty", productQty);
+                    insertCmd.Parameters.AddWithValue("@productQty", quantity);
                     insertCmd.Parameters.AddWithValue("@price", price);
                     insertCmd.Parameters.AddWithValue("@totalPrice", totalPrice);
-                    insertCmd.Parameters.AddWithValue("@username", username); // Fixed to use username
+                    insertCmd.Parameters.AddWithValue("@username", username);
                     insertCmd.Parameters.AddWithValue("@productID", productID);
 
                     insertCmd.ExecuteNonQuery();
 
-                    // Display success message
+                    // Update the product quantity in ProductsTable
+                    SqlCommand updateCmd = new SqlCommand("UPDATE ProductsTable SET productQty = productQty - @quantity WHERE productID = @productID", con);
+                    updateCmd.Parameters.AddWithValue("@quantity", quantity);
+                    updateCmd.Parameters.AddWithValue("@productID", productID);
+
+                    updateCmd.ExecuteNonQuery();
+
                     lblMessage.Text = "Item added to the cart successfully!";
                     lblMessage.Visible = true;
 
@@ -121,34 +129,9 @@ namespace login
             }
             catch (Exception ex)
             {
-                // Handle exception
                 lblMessage.Text = "Error adding to cart: " + ex.Message;
                 lblMessage.Visible = true;
             }
-        }
-
-
-        private int GetClientID(string username, SqlConnection con)
-        {
-            int clientID = -1; // Default to -1 if not found
-            try
-            {
-                SqlCommand cmd = new SqlCommand("SELECT clientID FROM ClientTable WHERE username = @username", con);
-                cmd.Parameters.AddWithValue("@username", username);
-                object result = cmd.ExecuteScalar();
-
-                if (result != null)
-                {
-                    clientID = Convert.ToInt32(result);
-                }
-            }
-            catch (Exception ex)
-            {
-                // Handle exception (e.g., log it)
-                lblMessage.Text = "Error retrieving client ID: " + ex.Message;
-                lblMessage.Visible = true;
-            }
-            return clientID;
         }
     }
 }
