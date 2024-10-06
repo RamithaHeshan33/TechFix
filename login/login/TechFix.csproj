@@ -77,6 +77,8 @@
     <Content Include="adminManageProducts.aspx" />
     <Content Include="categories.jpg" />
     <Content Include="categoryWebForm.aspx" />
+    <Content Include="clientLogin.aspx" />
+    <Content Include="clientRegister.aspx" />
     <Content Include="dashboardWebForm.aspx" />
     <Content Include="login.aspx" />
     <Content Include="ManageProducts.aspx" />
@@ -119,6 +121,20 @@
     </Compile>
     <Compile Include="categoryWebForm.aspx.designer.cs">
       <DependentUpon>categoryWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientLogin.aspx.cs">
+      <DependentUpon>clientLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientLogin.aspx.designer.cs">
+      <DependentUpon>clientLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientRegister.aspx.cs">
+      <DependentUpon>clientRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientRegister.aspx.designer.cs">
+      <DependentUpon>clientRegister.aspx</DependentUpon>
     </Compile>
     <Compile Include="dashboardWebForm.aspx.cs">
       <DependentUpon>dashboardWebForm.aspx</DependentUpon>
