@@ -16,44 +16,51 @@
             border-radius: 5px;
             margin-bottom: 15px;
         }
+
+        .message-label {
+            color: #28a745;
+            font-size: 16px;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 20px;
+	    margin-bottom: 20px;
+        }
     </style>
 
 </head>
 <body>
-    
-    <div class="message-label">
-        <asp:Label ID="lblText" runat="server" Text=""></asp:Label>
-    </div>
     <form id="form1" runat="server">
         <h1>Register Form</h1>
-
+        <div class="message-label">
+            <asp:Label ID="lblText" runat="server" Text=""></asp:Label>
+        </div>
         <div>
             <asp:Label ID="Label2" runat="server" Text="Username:" Font-Bold="true"></asp:Label>
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
         </div>
 
         <div>
             <asp:Label ID="Label3" runat="server" Text="Password: " Font-Bold="true"></asp:Label>
-            <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
+            <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
         </div>
 
         <div>
             <asp:Label ID="Label5" runat="server" Text="Name:" Font-Bold="true"></asp:Label>
-            <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtClientName" runat="server"></asp:TextBox>
         </div>
 
         <div>
             <asp:Label ID="Label1" runat="server" Text="Age:" Font-Bold="true"></asp:Label>
-            <asp:TextBox ID="TextBox3" runat="server" TextMode="Number"></asp:TextBox>
+            <asp:TextBox ID="txtAge" runat="server" TextMode="Number"></asp:TextBox>
         </div>
 
         <div>
             <asp:Label ID="Label4" runat="server" Text="Address:" Font-Bold="true"></asp:Label>
-            <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtAddress" runat="server"></asp:TextBox>
         </div>
 
         <div class="form-actions">
-            <asp:Button CssClass="btn-cancel" ID="Button2" runat="server" Text="Register" />
+            <asp:Button CssClass="btn-cancel" ID="Button2" runat="server" Text="Register" OnClick="Button2_Click" />
             <asp:Button CssClass="btn-login" ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" />
         </div>
     </form>
