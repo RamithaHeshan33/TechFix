@@ -77,7 +77,10 @@
     <Content Include="adminManageProducts.aspx" />
     <Content Include="categories.jpg" />
     <Content Include="categoryWebForm.aspx" />
+    <Content Include="clientBuyProducts.aspx" />
+    <Content Include="clientDashboard.aspx" />
     <Content Include="clientLogin.aspx" />
+    <Content Include="clientProductList.aspx" />
     <Content Include="clientRegister.aspx" />
     <Content Include="dashboardWebForm.aspx" />
     <Content Include="login.aspx" />
@@ -122,12 +125,33 @@
     <Compile Include="categoryWebForm.aspx.designer.cs">
       <DependentUpon>categoryWebForm.aspx</DependentUpon>
     </Compile>
+    <Compile Include="clientBuyProducts.aspx.cs">
+      <DependentUpon>clientBuyProducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientBuyProducts.aspx.designer.cs">
+      <DependentUpon>clientBuyProducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientDashboard.aspx.cs">
+      <DependentUpon>clientDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientDashboard.aspx.designer.cs">
+      <DependentUpon>clientDashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="clientLogin.aspx.cs">
       <DependentUpon>clientLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="clientLogin.aspx.designer.cs">
       <DependentUpon>clientLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientProductList.aspx.cs">
+      <DependentUpon>clientProductList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientProductList.aspx.designer.cs">
+      <DependentUpon>clientProductList.aspx</DependentUpon>
     </Compile>
     <Compile Include="clientRegister.aspx.cs">
       <DependentUpon>clientRegister.aspx</DependentUpon>

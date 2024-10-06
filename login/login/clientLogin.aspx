@@ -13,7 +13,7 @@
         <h1>Login Form</h1>
 
         <div>
-            <asp:Label ID="Label2" runat="server" Text="Username:" Font-Bold="true"></asp:Label>
+            <asp:Label ID="Label2" runat="server" Text="User ID:" Font-Bold="true"></asp:Label>
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
         </div>
 

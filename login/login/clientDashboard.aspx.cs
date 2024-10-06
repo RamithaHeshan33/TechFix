@@ -13,5 +13,20 @@ namespace login
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("clientProductList.aspx");
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

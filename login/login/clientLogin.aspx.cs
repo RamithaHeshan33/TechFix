@@ -36,7 +36,7 @@ namespace login
                     Session["username"] = TextBox1.Text;
 
                     // Redirect to dashboard or manage products page
-                    Response.Redirect("dashboardWebForm.aspx");
+                    Response.Redirect("clientDashboard.aspx");
                 }
                 else
                 {
