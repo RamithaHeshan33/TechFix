@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SearchByCategory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="categoryId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchByCategoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchByCategoryResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchBySupplier">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="supplierUsername" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchBySupplierResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchBySupplierResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchByProductName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="productName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchByProductNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchByProductNameResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SearchByCategorySoapIn">
+    <wsdl:part name="parameters" element="tns:SearchByCategory" />
+  </wsdl:message>
+  <wsdl:message name="SearchByCategorySoapOut">
+    <wsdl:part name="parameters" element="tns:SearchByCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchBySupplierSoapIn">
+    <wsdl:part name="parameters" element="tns:SearchBySupplier" />
+  </wsdl:message>
+  <wsdl:message name="SearchBySupplierSoapOut">
+    <wsdl:part name="parameters" element="tns:SearchBySupplierResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchByProductNameSoapIn">
+    <wsdl:part name="parameters" element="tns:SearchByProductName" />
+  </wsdl:message>
+  <wsdl:message name="SearchByProductNameSoapOut">
+    <wsdl:part name="parameters" element="tns:SearchByProductNameResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SearchProductsSoap">
+    <wsdl:operation name="SearchByCategory">
+      <wsdl:input message="tns:SearchByCategorySoapIn" />
+      <wsdl:output message="tns:SearchByCategorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchBySupplier">
+      <wsdl:input message="tns:SearchBySupplierSoapIn" />
+      <wsdl:output message="tns:SearchBySupplierSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchByProductName">
+      <wsdl:input message="tns:SearchByProductNameSoapIn" />
+      <wsdl:output message="tns:SearchByProductNameSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SearchProductsSoap" type="tns:SearchProductsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SearchByCategory">
+      <soap:operation soapAction="http://tempuri.org/SearchByCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchBySupplier">
+      <soap:operation soapAction="http://tempuri.org/SearchBySupplier" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchByProductName">
+      <soap:operation soapAction="http://tempuri.org/SearchByProductName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SearchProductsSoap12" type="tns:SearchProductsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SearchByCategory">
+      <soap12:operation soapAction="http://tempuri.org/SearchByCategory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchBySupplier">
+      <soap12:operation soapAction="http://tempuri.org/SearchBySupplier" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchByProductName">
+      <soap12:operation soapAction="http://tempuri.org/SearchByProductName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SearchProducts">
+    <wsdl:port name="SearchProductsSoap" binding="tns:SearchProductsSoap">
+      <soap:address location="https://localhost:44314/SearchProducts.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SearchProductsSoap12" binding="tns:SearchProductsSoap12">
+      <soap12:address location="https://localhost:44314/SearchProducts.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

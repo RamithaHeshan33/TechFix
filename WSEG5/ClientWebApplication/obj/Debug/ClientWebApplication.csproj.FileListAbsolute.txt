@@ -1,0 +1,295 @@
+D:\114\WSEG5\ClientWebApplication\bin\ClientWebApplication.dll.config
+D:\114\WSEG5\ClientWebApplication\bin\ClientWebApplication.dll
+D:\114\WSEG5\ClientWebApplication\bin\ClientWebApplication.pdb
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\csc.exe
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\csc.exe.config
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\csc.rsp
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\csi.exe
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\csi.exe.config
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\csi.rsp
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.AppContext.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Collections.Immutable.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Console.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Globalization.Calendars.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.IO.Compression.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.IO.FileSystem.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Net.Http.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Net.Sockets.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Reflection.Metadata.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.ValueTuple.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.XmlDocument.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.XPath.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\vbc.exe
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\vbc.exe.config
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\vbc.rsp
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\VBCSCompiler.exe
+D:\114\WSEG5\ClientWebApplication\bin\roslyn\VBCSCompiler.exe.config
+D:\114\WSEG5\ClientWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\114\WSEG5\ClientWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\114\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.csproj.CoreCompileInputs.cache
+D:\114\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.csproj.CopyComplete
+D:\114\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.dll
+D:\114\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.pdb
+D:\114\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.csproj.AssemblyReference.cache
+Z:\114\WSEG5\ClientWebApplication\bin\ClientWebApplication.dll.config
+Z:\114\WSEG5\ClientWebApplication\bin\ClientWebApplication.dll
+Z:\114\WSEG5\ClientWebApplication\bin\ClientWebApplication.pdb
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\csc.exe
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\csc.exe.config
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\csc.rsp
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\csi.exe
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\csi.exe.config
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\csi.rsp
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.Win32.Primitives.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.AppContext.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Collections.Immutable.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Console.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Globalization.Calendars.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.IO.Compression.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.IO.Compression.ZipFile.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.IO.FileSystem.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Net.Http.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Net.Sockets.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Reflection.Metadata.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.ValueTuple.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.XmlDocument.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.XPath.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\vbc.exe
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\vbc.exe.config
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\vbc.rsp
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\VBCSCompiler.exe
+Z:\114\WSEG5\ClientWebApplication\bin\roslyn\VBCSCompiler.exe.config
+Z:\114\WSEG5\ClientWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Z:\114\WSEG5\ClientWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Z:\114\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.csproj.AssemblyReference.cache
+Z:\114\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.csproj.CoreCompileInputs.cache
+Z:\114\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.csproj.CopyComplete
+Z:\114\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.dll
+Z:\114\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.pdb
+E:\114\WSEG5\ClientWebApplication\bin\ClientWebApplication.dll.config
+E:\114\WSEG5\ClientWebApplication\bin\ClientWebApplication.dll
+E:\114\WSEG5\ClientWebApplication\bin\ClientWebApplication.pdb
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\csc.exe
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\csc.exe.config
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\csc.rsp
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\csi.exe
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\csi.exe.config
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\csi.rsp
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.AppContext.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Collections.Immutable.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Console.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Globalization.Calendars.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.IO.Compression.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.IO.FileSystem.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Net.Http.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Net.Sockets.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Reflection.Metadata.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.ValueTuple.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.XmlDocument.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.XPath.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\vbc.exe
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\vbc.exe.config
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\vbc.rsp
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\VBCSCompiler.exe
+E:\114\WSEG5\ClientWebApplication\bin\roslyn\VBCSCompiler.exe.config
+E:\114\WSEG5\ClientWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\114\WSEG5\ClientWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\114\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.csproj.AssemblyReference.cache
+E:\114\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.csproj.CoreCompileInputs.cache
+E:\114\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.csproj.CopyComplete
+E:\114\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.dll
+E:\114\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.pdb
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\ClientWebApplication.dll.config
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\ClientWebApplication.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\ClientWebApplication.pdb
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\csc.exe
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\csc.exe.config
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\csc.rsp
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\csi.exe
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\csi.exe.config
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\csi.rsp
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.AppContext.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Collections.Immutable.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Console.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Globalization.Calendars.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.IO.Compression.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.IO.FileSystem.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Net.Http.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Net.Sockets.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Reflection.Metadata.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.ValueTuple.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.XmlDocument.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.XPath.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\vbc.exe
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\vbc.exe.config
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\vbc.rsp
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\VBCSCompiler.exe
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\roslyn\VBCSCompiler.exe.config
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.csproj.AssemblyReference.cache
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.csproj.CoreCompileInputs.cache
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.csproj.CopyComplete
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.dll
+E:\WORKs\SEM 04\SOC\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.pdb
+E:\WSEG5\ClientWebApplication\bin\ClientWebApplication.dll.config
+E:\WSEG5\ClientWebApplication\bin\ClientWebApplication.dll
+E:\WSEG5\ClientWebApplication\bin\ClientWebApplication.pdb
+E:\WSEG5\ClientWebApplication\bin\roslyn\csc.exe
+E:\WSEG5\ClientWebApplication\bin\roslyn\csc.exe.config
+E:\WSEG5\ClientWebApplication\bin\roslyn\csc.rsp
+E:\WSEG5\ClientWebApplication\bin\roslyn\csi.exe
+E:\WSEG5\ClientWebApplication\bin\roslyn\csi.exe.config
+E:\WSEG5\ClientWebApplication\bin\roslyn\csi.rsp
+E:\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+E:\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\WSEG5\ClientWebApplication\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.AppContext.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Collections.Immutable.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Console.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Globalization.Calendars.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.IO.Compression.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.IO.FileSystem.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Net.Http.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Net.Sockets.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Reflection.Metadata.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.ValueTuple.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.XmlDocument.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.XPath.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\WSEG5\ClientWebApplication\bin\roslyn\vbc.exe
+E:\WSEG5\ClientWebApplication\bin\roslyn\vbc.exe.config
+E:\WSEG5\ClientWebApplication\bin\roslyn\vbc.rsp
+E:\WSEG5\ClientWebApplication\bin\roslyn\VBCSCompiler.exe
+E:\WSEG5\ClientWebApplication\bin\roslyn\VBCSCompiler.exe.config
+E:\WSEG5\ClientWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\WSEG5\ClientWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.csproj.AssemblyReference.cache
+E:\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.csproj.CoreCompileInputs.cache
+E:\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.csproj.CopyComplete
+E:\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.dll
+E:\WSEG5\ClientWebApplication\obj\Debug\ClientWebApplication.pdb
