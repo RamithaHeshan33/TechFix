@@ -10,10 +10,9 @@ TechFix is a web-based solution designed to **streamline the procurement process
 - 📊 **Reports & Analytics** – Generate insights for better decision-making.
 
 ## 🏗️ Tech Stack
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** PHP  
-- **Database:** MySQL  
-- **Other:** SQL queries for efficient data management  
+- **Frontend:** ASP.NET MVC, CSS, JavaScript  
+- **Backend:** C# (.NET Framework / .NET Core)  
+- **Database:** Microsoft SQL Server  
 
 ## 🔧 Installation
 1. Clone the repository:  
